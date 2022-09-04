@@ -1,0 +1,22 @@
+{
+  "name": "warcraft-tavern-scraper",
+  "version": "1.0.0",
+  "description": "Fetches Warcraft Tavern data from a hardcoded URL and outputs a CSV",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node-esm src/index.ts"
+  },
+  "author": "Michael Oliver",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.56",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.2.0",
+    "node-fetch": "^3.2.10"
+  }
+}
